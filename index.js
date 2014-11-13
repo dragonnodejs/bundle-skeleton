@@ -2,7 +2,7 @@
 
 // Description for the bundle
 
-module.exports = function (config, services) {
+module.exports = function (config, _, services) {
     config = {
         npm: __dirname + '/node_modules/',
         libraries: {},
@@ -11,5 +11,5 @@ module.exports = function (config, services) {
             directory: config
         }
     };
-    services.dragonnodejs(config, services);
+    require('dragonnodejs')(config, services);
 };

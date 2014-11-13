@@ -1,4 +1,7 @@
 {
+    "dependencies": {
+        "dragonnodejs": "3.*"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/dragonnodejs/bundle-skeleton.git"
