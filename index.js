@@ -5,9 +5,13 @@
 module.exports = function (config, _, services) {
     config = {
         npm: __dirname + '/node_modules/',
-        libraries: {},
+        libraries: {
+            nodejs: {},
+            npm: {}
+        },
         directory: __dirname + '/modules/',
         modules: {
+            npm: {},
             directory: config
         }
     };
