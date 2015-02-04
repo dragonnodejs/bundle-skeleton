@@ -1,4 +1,6 @@
 "use strict";
+/*global module:false */
+/*global __dirname:false */
 
 // Description for the bundle
 
