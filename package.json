@@ -1,22 +1,22 @@
 {
-    "name": "bundle-skeleton",
-    "description": "Skeleton for a bundle with the DragonNode.js Framework",
-    "version": "1.0.0",
-    "homepage": "http://github.com/dragonnodejs/bundle-skeleton",
-    "license": "MIT",
-    "readmeFilename": "README.md",
-    "main": "bundle.js",
-    "scripts": {
-        "test": "mocha -R spec"
-    },
-    "dependencies": {
-        "dragonnodejs": "^4.0.4"
-    },
-    "devDependencies": {
-        "mocha": "^2.1.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/dragonnodejs/bundle-skeleton.git"
-    }
+  "name": "bundle-skeleton",
+  "description": "Skeleton for a bundle with the DragonNode.js Framework",
+  "version": "1.0.0",
+  "homepage": "http://github.com/dragonnodejs/bundle-skeleton",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "dependencies": {
+    "dragonnodejs": "^4.0.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dragonnodejs/bundle-skeleton.git"
+  }
 }
