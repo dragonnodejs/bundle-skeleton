@@ -5,9 +5,9 @@ Skeleton for a bundle with the DragonNode.js Framework
 - Add bundle to the "package.json":
 ```javascript
 {
-    "dependencies": {
-        "dragonnodejs-bundle-skeleton": "^1.0.0"
-    }
+  "dependencies": {
+    "dragonnodejs-bundle-skeleton": "^1.0.1"
+  }
 }
 ```
 - Run "npm install"
