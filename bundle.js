@@ -2,12 +2,10 @@
 
 // Description for the bundle
 
-module.exports = function (config, _, services) {
+module.exports = (config, _, services) => {
     config = {
-        directory: __dirname + '/modules/',
-        modules: {
-            directory: config
-        }
+        directory: __dirname + '/',
+        modules: config
     };
     require('dragonnodejs')(config, services);
 };
