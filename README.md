@@ -1,25 +1,15 @@
 # DragonNode.js Bundle Skeleton
-Skeleton for a bundle with the DragonNode.js Framework
+Skeleton for a bundle with the DragonNode.js framework
 
 ## Installation
-- Add bundle to the "package.json":
+- Run ```npm install bundle-skeleton --save```
+- Add the bundle to the "app.js":
 ```javascript
-{
-  "dependencies": {
-    "dragonnodejs-bundle-skeleton": "^1.0.1"
-  }
-}
-```
-- Run "npm install"
-- Extend the configuration in "app.js":
-```javascript
-let config = {
-    directory: __dirname + '/',
-    modules: [
-        [require('dragonnodejs-bundle-skeleton'), [
-            ['modules/example', {}]
-        ]]
-    ]
-};
-require('dragonnodejs')(config);
+let modules = [
+    [require('bundle-skeleton'), [
+        ['example',
+            // Configuration for the module
+        ]
+    ]]
+];
 ```

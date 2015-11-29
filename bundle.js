@@ -1,11 +1,9 @@
 'use strict';
 
-// Description for the bundle
+// Load the libraries and run the modules for the bundle
 
 module.exports = (config, _, services) => {
-    config = {
-        directory: __dirname + '/',
-        modules: config
-    };
-    require('dragonnodejs')(config, services);
+    let directory = __dirname + '/modules/';
+    let libraries = {};
+    require('dragonnodejs')(directory, config, libraries, services);
 };
